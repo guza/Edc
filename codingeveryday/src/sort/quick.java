@@ -38,10 +38,9 @@ public class quick {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int [] sort = new int[]{5,1,6,4,2,3};
+		int [] sort = new int[]{5,1,6,4,2,3,9};
 		quickSort(sort,0,sort.length-1);
 		print(sort);
-		
 	}
 	
 	public static void print(int sort[])
